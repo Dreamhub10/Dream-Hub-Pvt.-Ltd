@@ -22,7 +22,7 @@
     z-index: 99;
 }
 
-h1, h2, h3, .h1, .h2, .h3 {
+h2, h3, .h1, .h2, .h3 {
     font-weight: 400 !important;
     font-family: 'Playball', cursive !important;
     background:linear-gradient(to right,red, blue);
@@ -135,6 +135,7 @@ h4, h5, h6, .h4, .h5, .h6 {
     padding: 10px 12px;
     font-weight: 600;
     font-size: 17px;
+
     transition: .5s;
     background:linear-gradient(to right,red, blue);
     color:black;
