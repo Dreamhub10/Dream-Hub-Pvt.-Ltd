@@ -27,10 +27,10 @@ h2, h3, .h1, .h2, .h3 {
     font-family: 'Playball', cursive !important;
     background:linear-gradient(to right,red, blue);
     color:transparent;
-    -webkit-background-clip: text;     
+    -webkit-background-clip:text;     
     text-shadow: 0 0 60px red (255, 0, 0.457);
     animation: anime 1s;
-    infinite alternative;   
+    infinite:alternative;   
 }
 
 @keyframes anime{
@@ -49,7 +49,7 @@ h4, h5, h6, .h4, .h5, .h6 {
     -webkit-background-clip: text;     
     text-shadow: 0 0 60px red (255, 0, 0.457);
     animation: anime 1s;
-    infinite alternative;   
+    infinite:alternative;   
 }
 
 @keyframes anime{
@@ -142,7 +142,7 @@ h4, h5, h6, .h4, .h5, .h6 {
     -webkit-background-clip: text;     
     text-shadow: 0 0 60px red (255, 0, 0.457);
     animation: anime 1s;
-    infinite alternative;   
+    infinite:alternative;   
 }
 
 @keyframes anime{
@@ -512,14 +512,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 /*** Footer End ***/
 
 
-body::-webkit-scrollbar {
-    background-color: transparent;
 
-}
-body::-webkit-scrollbar-thumb {
-    background:linear-gradient(red,blue,green);
-    border-radius: 20px,10px;
-}
 
 
 p1
@@ -550,4 +543,6 @@ p {
     align-items: center;
 }
 
-/
+/* mouse cuursors */
+ 
+
